@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    float; left;
+    list-style: none;
+    margin: 10px;
+    font-size: 35px;
+    color: aliceblue;
+}
+header ul{
+    width: 100%;
+    font-size: 40px;
+}
+
+#logo {
+    width: 300px; /* Ajusta el ancho de la imagen a 200px */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+img{
+    width: 250px;
+}
+h1 {
+    font-size: 24px;
+    color: rgb(193, 9, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.encabezado{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    line-height: 100%;
+
+}
+.clearfix{
+    clear: both;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px; 
+}    
+.caja{
+    align-items:center;
+    text-align: center;
+    line-height: 100%
+}
+.caja img{
+    border-radius: 50%;
+    height: 150%;
+}
+.imagen-carrusel {
+    width: 500px; /* Tamaño deseado en píxeles */
+    height: 300px; /* Tamaño deseado en píxeles */
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+.especialidad{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    line-height: 100%;
+}
+.especialidad .rectangulo p {
+    font-size: 35px; /* Puedes ajustar el tamaño de la fuente según tus preferencias */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #container-fluid {
+        width: 100%; /* Ajusta el ancho del contenedor al 100% */
+    }
+    /* Otros estilos para pantallas con un ancho máximo de 600px */
+}
